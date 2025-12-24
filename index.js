@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `Rezy-MD connected ✅\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true` },
+        image: { url: `https://github.com/whatsappbot-2/Rezy-MD_Image_Maker/blob/main/WEB%20PAIR%20CONNECTED%20SUCCESSFUL.jpeg?raw=true` },
         caption: up
       });
 
