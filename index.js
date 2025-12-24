@@ -85,7 +85,7 @@ async function connectToWA() {
         connectToWA();
       }
     } else if (connection === 'open') {
-      console.log('✅ Rezy-MD-MD connected to WhatsApp');
+      console.log('✅ Rezy-MD connected to WhatsApp');
 
       const up = `Rezy-MD connected ✅\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
